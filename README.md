@@ -29,8 +29,10 @@ The SAKAMANAS system is an embedded IoT baseline device designed for multi-tank 
 Written in C++ (Arduino Framework), SAKAMANAS utilizes an asynchronous, non-blocking architecture driven by `BlynkTimer`. This design eliminates execution delays, allowing simultaneous 1-Wire sensor polling, dynamic LCD updates, physical mute button reading, and background cloud telemetry sync via Blynk and WiFiMulti.
 
 ## Circuit Diagram & Flow
-*(Insert your block diagram or wiring schematic image here)*
-![Circuit Diagram](link_to_your_image.png)
+
+![Prototype Hardware SAKAMANAS](sakamanas_prototype.jpeg)
+
+*Physical prototype of the SAKAMANAS system in a transparent enclosure, showing the I2C LCD screen, ESP32, active buzzer, and the connections for the three waterproof DS18B20 probes.*
 
 ---
 *Primitive baseline version of the ASSIF system, developed for multi-aquarium IoT bio-monitoring.*
